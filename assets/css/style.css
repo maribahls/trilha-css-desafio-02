@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    width: 1440px;
+}
+
+body{
+    width: 1440px;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16.41px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 1400px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#start {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 146px;
+    height: 24px;
+}
+
+#center {
+    display: flex;
+    align-items: center;
+    width: 404px;
+    height: 40px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.searchImput {
+    flex: 1;
+    width: 348px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.searchButton {
+    background-color: #e8e8e8;
+    border: none;
+    height: 60px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+    height: 33px;
+}
+
+.profile {
+    width: 34px;
+    border-radius: 50%
+    ;}
+
+.icon {
+    padding: 0 8px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 1440px;
+    margin: 15px 0 0 0;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    width: 952px;
+    height: 746px;
+    margin: 5px 0 0 0px;
+    
+}
+
+#video {
+    width: 952px;
+}
+
+#videoLegend p{
+    width: 880x;
+    height: 23px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.44px;
+    margin: 20px 0;
+}
+
+.subscribeButton {
+    background-color: #CC0000;
+    width: 159px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribeButton:hover {
+    background-color: #E60000;
+}
+
+#videoActions {
+    width: 910px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileChannel {
+    width: 160px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.info h1 {
+    font-size: 14px;
+    margin: 0;
+    color: #000000;
+}
+
+.info p {
+    margin: 0;
+    color: #9a9898;
+}
+
+.comum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 24px;
+}
+
+.comum p {
+    color: #000000;
+    font-weight: 500;
+    margin: 0;
+    height: 16px;
+}
+
+#like {
+    width: 63px;
+}
+
+#like p {
+    width: 31px;
+}
+
+#dislike {
+    width: 100px;
+}
+
+#dislike p {
+    width: 68px;
+}
+
+#share {
+    width: 115px;
+}
+
+#share p{
+    width: 83px;
+}
+
+#download {
+    width: 95px;
+}
+
+#dowload p{
+    width: 63px;
+}
+
+#videoVisual {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 391px;
+    height: 16px;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+}
+
+#videoVisual p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#videoInfo {
+    display: flex;
+    justify-content: flex-start;
+    width: 510px;
+    height: 64;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: #515151;
+}
+
+.left{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 10px 0 0 10px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 410px;
+    margin: 0 -20px 0 25px;
+}
+
+.recomendVideos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    margin: 0 0 5px 0;
+}
+
+.left h1{
+    width: 196px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    margin: 0 0 2px 5px;
+    line-height: 16.41px;
+}
+
+.left h2{
+    font-weight: 400;
+    font-size: 12px;
+    color: #515151;
+    margin: 5px 0 0 5px;
+    line-height: 14.06px;
+}
