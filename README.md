@@ -8,4 +8,4 @@ Neste desafio, você irá recriar a página inicial do YouTube utilizando HTML e
 - Aplicar o **Flexbox** para posicionar, alinhar e distribuir os componentes da página.
 - Desenvolver habilidades em CSS para estilização e controle de layout.
   
-![Demonstração do Desafio](./clonagemYoutube.png)
+![Demonstração do Desafio](assets/icons/clonagemYoutube.png)
