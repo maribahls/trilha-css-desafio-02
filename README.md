@@ -1,7 +1,6 @@
 # Clonagem da Página do YouTube
 
-## Descrição do Desafio
-Neste desafio, você irá recriar a página inicial do YouTube utilizando HTML e CSS, aplicando os conceitos aprendidos ao longo da trilha, com foco no uso do **Flexbox** para organizar e distribuir os elementos. O objetivo é consolidar o conhecimento em layout, alinhamento e responsividade, desenvolvendo uma página visualmente semelhante à do YouTube.
+Este projeto foi desenvolvido como parte do desafio da Trilha de CSS da DIO. O objetivo principal foi aplicar os conceitos aprendidos em CSS, especialmente sobre **Flexbox**, para recriar a interface principal da página do YouTube.
 
 ## Objetivos do Projeto
 - Reproduzir o layout principal da página do YouTube.
